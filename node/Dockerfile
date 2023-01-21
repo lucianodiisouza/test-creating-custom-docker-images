@@ -1,0 +1,7 @@
+FROM node:gallium
+
+WORKDIR /usr/src/app
+
+EXPOSE 3000
+
+CMD [ "node", "index.js" ]
